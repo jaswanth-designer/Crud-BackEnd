@@ -1,4 +1,11 @@
 {
+  "name": "crud-backend",
+  "version": "1.0.0",
+  "main": "backend.js",
+  "scripts": {
+    "start": "node backend.js",
+    "dev": "nodemon backend.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0",
@@ -6,3 +13,4 @@
     "nodemon": "^3.1.10"
   }
 }
+

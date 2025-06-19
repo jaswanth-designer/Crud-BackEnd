@@ -8,7 +8,7 @@ app.use(express.json())
 mongoose.connect("mongodb://localhost:27017/jaswanth").then(() => console.log('db connect')).catch((err) => console.log(err))
 
 let collect = mongoose.model('student', {
-    uname: String, uPhone: String, uGmail:String
+    uname: String, uPhone: String, uGmail: String
 })
 
 app.post("/", async (req, res) => {
